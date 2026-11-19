@@ -1,0 +1,18 @@
+{
+	edit = {
+		localizations = {
+			"english" = {
+				num = 1;
+				item[0] = <%Accumulated score required to activate the supercharged shield bash. Charged by Slayer kills and shield parries.%>;
+			}
+			"spanish" = {
+				num = 1;
+				item[0] = <%Puntuacion acumulada necesaria para activar la embestida potenciada. Se carga al eliminar demonios con el Slayer o al realizar bloqueos con el escudo.%>;
+			}
+			"latin_spanish" = {
+				num = 1;
+				item[0] = <%Puntuacion acumulada necesaria para activar la embestida potenciada. Se carga al eliminar demonios con el Slayer o al realizar bloqueos con el escudo.%>;
+			}
+		}
+	}
+}

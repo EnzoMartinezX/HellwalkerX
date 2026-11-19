@@ -1,0 +1,18 @@
+{
+	edit = {
+		localizations = {
+			"english" = {
+				num = 1;
+				item[0] = <%Supercharged bash target score%>;
+			}
+			"spanish" = {
+				num = 1;
+				item[0] = <%Carga objetivo de embestida%>;
+			}
+			"latin_spanish" = {
+				num = 1;
+				item[0] = <%Carga objetivo de embestida%>;
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	edit = {
+		dataSet = "idUIDataSet_Settings_Controls";
+		propertyName = "movementDeadzone";
+		uiData = {
+			className = "idUIWidgetModel_Setting_Slider";
+			object = {
+				title = "ui/settings/game/hellwalker_target_score_title";
+				description = "ui/settings/game/hellwalker_target_score_desc";
+				minValue = 100;
+				maxValue = 10000;
+				precision = 100;
+				increment = 100;
+				displayPrecision = 0;
+			}
+		}
+	}
+}

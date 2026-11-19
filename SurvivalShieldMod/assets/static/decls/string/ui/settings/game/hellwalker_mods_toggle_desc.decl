@@ -1,0 +1,18 @@
+{
+	edit = {
+		localizations = {
+			"english" = {
+				num = 1;
+				item[0] = <%Enable or disable loading this mod. Changes take effect on the next game launch.%>;
+			}
+			"spanish" = {
+				num = 1;
+				item[0] = <%Habilita o deshabilita la carga de este mod. Los cambios se aplican al reiniciar el juego.%>;
+			}
+			"latin_spanish" = {
+				num = 1;
+				item[0] = <%Habilita o deshabilita la carga de este mod. Los cambios se aplican al reiniciar el juego.%>;
+			}
+		}
+	}
+}

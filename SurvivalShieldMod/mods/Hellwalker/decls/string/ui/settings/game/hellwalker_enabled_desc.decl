@@ -1,0 +1,18 @@
+{
+	edit = {
+		localizations = {
+			"english" = {
+				num = 1;
+				item[0] = <%Enable or disable the Hellwalker system. Once target charge is reached through kills and parries, the next shield bash is supercharged and ignites the target.%>;
+			}
+			"spanish" = {
+				num = 1;
+				item[0] = <%Habilita o deshabilita el sistema Hellwalker. Al completar la carga objetivo mediante bajas y bloqueos, la siguiente embestida de escudo se potencia e incendia al objetivo.%>;
+			}
+			"latin_spanish" = {
+				num = 1;
+				item[0] = <%Habilita o deshabilita el sistema Hellwalker. Al completar la carga objetivo mediante bajas y bloqueos, la siguiente embestida de escudo se potencia e incendia al objetivo.%>;
+			}
+		}
+	}
+}

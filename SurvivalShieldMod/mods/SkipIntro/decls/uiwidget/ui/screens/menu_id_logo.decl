@@ -1,0 +1,30 @@
+{
+	inherit = "ui/base/menu_screen";
+	edit = {
+		class = "idUIWidget_Menu_Fixed_Time_Start_Screen";
+		model = {
+			className = "idUIWidgetModel_Menu_Fixed_Time_Start_Screen";
+			object = {
+				hasTextToSpeech = false;
+				displayMedia = "video/start/id_logo.bk2";
+				duration = 1;
+				firstLaunchTargetScreen = "auto_save_info";
+				tosServiceTarrgetScreen = "legal";
+				generalLaunchTargetScreen = "start";
+				nonLaunchTarget = "start";
+			}
+		}
+		childWidgets = {
+			num = 1;
+			item[0] = {
+				name = "displayMedia";
+				type = "ui/elements/image";
+				path = "image";
+				initialState = "hidden";
+				modelBindings = {
+					"icon" = "displayMedia";
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	edit = {
+		localizations = {
+			"english" = {
+				num = 1;
+				item[0] = <%Mod status%>;
+			}
+			"spanish" = {
+				num = 1;
+				item[0] = <%Estado del mod%>;
+			}
+			"latin_spanish" = {
+				num = 1;
+				item[0] = <%Estado del mod%>;
+			}
+		}
+	}
+}

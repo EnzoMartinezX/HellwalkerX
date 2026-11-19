@@ -1,0 +1,454 @@
+{
+	inherit = "ui/base/menu_screen";
+	edit = {
+		class = "idUIWidget_Extras";
+		attributes = {
+			className = "idUIWidgetAttributes";
+		}
+		deactivateOnHide = true;
+		initialState = "normal";
+		eventDescriptors = {
+			"UI_EVENT_PRESS" = remove;
+		}
+		childWidgets = {
+			num = 1;
+			item[0] = {
+				name = "layout";
+				type = "ui/prefabs/layout_menu_frontend_list";
+				path = "layout";
+				modelOverride = {
+					className = "idUIWidgetModel_Layout";
+					object = {
+						navItems = {
+							num = 12;
+							item[0] = {
+								navItem = {
+									widget = "ui/elements/button_common";
+									model = {
+										className = "idUIWidgetModel_Button";
+										object = {
+											label = "ui/mainmenu/collectible_viewer";
+											pressCommand = {
+												command = {
+													className = "idUICommand_GoToScreen";
+													object = {
+														screen = "collectibles_selector";
+													}
+												}
+											}
+											isEnabledCommand = {
+												command = {
+													className = "idUICommand_CheckCvarBool";
+													object = {
+														cvar = "ui_toys_available";
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							item[1] = {
+								navItem = {
+									widget = "ui/elements/button_common";
+									model = {
+										className = "idUIWidgetModel_Button";
+										object = {
+											label = "ui/mainmenu/weapon_skins";
+											pressCommand = {
+												command = {
+													className = "idUICommand_IsFullyInstalled";
+													object = {
+														onSuccess = {
+															command = {
+																className = "idUICommand_IsDLC1Available";
+																object = {
+																	onSuccess = {
+																		command = {
+																			className = "idUICommand_GoToScreen";
+																			object = {
+																				screen = "weapon_skins";
+																			}
+																		}
+																	}
+																	onFailure = {
+																		command = {
+																			className = "idUICommand_GoToScreen";
+																			object = {
+																				screen = "weapon_skins_no_dlc";
+																			}
+																		}
+																	}
+																}
+															}
+														}
+														onFailure = {
+															command = {
+																className = "idUICommand_DialogOpen";
+																object = {
+																	dialog = "system/streaming_content_pending";
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							item[2] = {
+								navItem = {
+									widget = "ui/elements/button_common";
+									model = {
+										className = "idUIWidgetModel_Button";
+										object = {
+											label = "ui/mainmenu/spear_skins";
+											pressCommand = {
+												command = {
+													className = "idUICommand_IsFullyInstalled";
+													object = {
+														onSuccess = {
+															command = {
+																className = "idUICommand_IsDLC1Available";
+																object = {
+																	onSuccess = {
+																		command = {
+																			className = "idUICommand_GoToScreen";
+																			object = {
+																				screen = "spear_skins";
+																			}
+																		}
+																	}
+																	onFailure = {
+																		command = {
+																			className = "idUICommand_DialogOpen";
+																			object = {
+																				dialog = "gameplay/dlc_not_available";
+																			}
+																		}
+																	}
+																}
+															}
+														}
+														onFailure = {
+															command = {
+																className = "idUICommand_DialogOpen";
+																object = {
+																	dialog = "system/streaming_content_pending";
+																}
+															}
+														}
+													}
+												}
+											}
+											isVisibleCommand = {
+												command = {
+													className = "idUICommand_IsDLC1Available";
+												}
+											}
+										}
+									}
+								}
+							}
+							item[3] = {
+								navItem = {
+									widget = "ui/elements/button_common";
+									model = {
+										className = "idUIWidgetModel_Button";
+										object = {
+											label = "ui/mainmenu/slayer_skins";
+											pressCommand = {
+												command = {
+													className = "idUICommand_IsFullyInstalled";
+													object = {
+														onSuccess = {
+															command = {
+																className = "idUICommand_GoToScreen";
+																object = {
+																	screen = "slayer_skins";
+																}
+															}
+														}
+														onFailure = {
+															command = {
+																className = "idUICommand_DialogOpen";
+																object = {
+																	dialog = "system/streaming_content_pending";
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							item[4] = {
+								navItem = {
+									widget = "ui/elements/button_common";
+									model = {
+										className = "idUIWidgetModel_Button";
+										object = {
+											label = "ui/mainmenu/atlan_skins";
+											pressCommand = {
+												command = {
+													className = "idUICommand_IsFullyInstalled";
+													object = {
+														onSuccess = {
+															command = {
+																className = "idUICommand_GoToScreen";
+																object = {
+																	screen = "atlan_skins";
+																}
+															}
+														}
+														onFailure = {
+															command = {
+																className = "idUICommand_DialogOpen";
+																object = {
+																	dialog = "system/streaming_content_pending";
+																}
+															}
+														}
+													}
+												}
+											}
+											isEnabledCommand = {
+												command = {
+													className = "idUICommand_CheckCvarBool";
+													object = {
+														cvar = "ui_atlan_skins_available";
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							item[5] = {
+								navItem = {
+									widget = "ui/elements/button_common";
+									model = {
+										className = "idUIWidgetModel_Button";
+										object = {
+											label = "ui/mainmenu/dragon_skins";
+											pressCommand = {
+												command = {
+													className = "idUICommand_IsFullyInstalled";
+													object = {
+														onSuccess = {
+															command = {
+																className = "idUICommand_GoToScreen";
+																object = {
+																	screen = "dragon_skins";
+																}
+															}
+														}
+														onFailure = {
+															command = {
+																className = "idUICommand_DialogOpen";
+																object = {
+																	dialog = "system/streaming_content_pending";
+																}
+															}
+														}
+													}
+												}
+											}
+											isEnabledCommand = {
+												command = {
+													className = "idUICommand_CheckCvarBool";
+													object = {
+														cvar = "ui_dragon_skins_available";
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							item[6] = {
+								navItem = {
+									widget = "ui/elements/button_common";
+									model = {
+										className = "idUIWidgetModel_Button";
+										object = {
+											label = "ui/mainmenu/milestones_title";
+											pressCommand = {
+												command = {
+													className = "idUICommand_GoToScreen";
+													object = {
+														screen = "milestones";
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							item[7] = {
+								navItem = {
+									widget = "ui/screens/mainmenu_login/button_login_username_menu";
+									model = {
+										className = "idUIWidgetModel_Button_Login";
+										object = {
+											pressCommand = {
+												command = {
+													className = "idUICommand_GoToScreen";
+													object = {
+														screen = "login";
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							item[8] = {
+								navItem = {
+									widget = "ui/elements/button_common";
+									model = {
+										className = "idUIWidgetModel_Button";
+										object = {
+											label = "ui/mainmenu/credits";
+											pressCommand = {
+												command = {
+													className = "idUICommand_GoToScreen";
+													object = {
+														screen = "credits";
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							item[9] = {
+								navItem = {
+									widget = "ui/elements/button_common";
+									model = {
+										className = "idUIWidgetModel_Button";
+										object = {
+											label = "ui/mainmenu/dlc_credits";
+											pressCommand = {
+												command = {
+													className = "idUICommand_IsDLC1Available";
+													object = {
+														onSuccess = {
+															command = {
+																className = "idUICommand_GoToScreen";
+																object = {
+																	screen = "credits_dlc";
+																}
+															}
+														}
+														onFailure = {
+															command = {
+																className = "idUICommand_DialogOpen";
+																object = {
+																	dialog = "gameplay/dlc_not_available";
+																}
+															}
+														}
+													}
+												}
+											}
+											isVisibleCommand = {
+												command = {
+													className = "idUICommand_IsDLC1Available";
+												}
+											}
+										}
+									}
+								}
+							}
+							item[10] = {
+								navItem = {
+									widget = "ui/elements/button_common";
+									model = {
+										className = "idUIWidgetModel_Button";
+										object = {
+											label = "ui/mainmenu/benchmark_title";
+											pressCommand = {
+												command = {
+													className = "idUICommand_Push_InputContext";
+													object = {
+														input_context = "ui_benchmark";
+													}
+												}
+											}
+											isVisibleCommand = {
+												command = {
+													className = "idUICommand_RunSequence";
+													object = {
+														commands = {
+															num = 2;
+															item[0] = {
+																command = {
+																	className = "idUICommand_CheckIfPlatformIsPC";
+																}
+																descriptor = {
+																	event = "UI_EVENT_NONE";
+																	eventController = "UI_EVENT_NONE";
+																	extraEvent1 = "";
+																	extraEventController1 = "";
+																	displayName = NULL;
+																	priority = 2147483647;
+																	bindSet = "BINDSET_UI_MENU";
+																}
+															}
+															item[1] = {
+																command = {
+																	className = "idUICommand_CheckCvarInteger";
+																	object = {
+																		cvar = "ui_menu_benchmark";
+																		comparisonOperator = "GREATER_THAN_OR_EQUAL";
+																		value = 1;
+																	}
+																}
+																descriptor = {
+																	event = "UI_EVENT_NONE";
+																	eventController = "UI_EVENT_NONE";
+																	extraEvent1 = "";
+																	extraEventController1 = "";
+																	displayName = NULL;
+																	priority = 2147483647;
+																	bindSet = "BINDSET_UI_MENU";
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							item[11] = {
+								navItem = {
+									widget = "ui/elements/button_common";
+									model = {
+										className = "idUIWidgetModel_Button";
+										object = {
+											label = "ui/mainmenu/mods_title";
+											pressCommand = {
+												command = {
+													className = "idUICommand_GoToScreen";
+													object = {
+														screen = "hellwalker_mods";
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

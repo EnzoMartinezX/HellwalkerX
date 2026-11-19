@@ -1,0 +1,11 @@
+Hellwalker & Integrated Mod Library for DOOM: The Dark Ages
+Copyright 2026 HellwalkerX
+
+This product includes software and custom HUD/UI assets developed by
+HellwalkerX (https://github.com/EnzoMartinezX/HellwalkerX).
+
+Third-Party Notices:
+--------------------
+- MinHook - The Minimalistic API Hooking Library for x64/x86
+  Copyright (C) 2009-2017 Tsuda Kageyu. All rights reserved.
+  Licensed under the BSD 2-Clause License (see SurvivalShieldMod/native/third_party/minhook/LICENSE.txt).

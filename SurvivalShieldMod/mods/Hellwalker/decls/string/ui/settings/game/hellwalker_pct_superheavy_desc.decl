@@ -1,0 +1,18 @@
+{
+	edit = {
+		localizations = {
+			"english" = {
+				num = 1;
+				item[0] = <%Percentage of the 1000-point base granted when killing a super-heavy or boss demon (e.g. 10% = 100 points per kill).%>;
+			}
+			"spanish" = {
+				num = 1;
+				item[0] = <%Porcentaje de la base de 1000 puntos otorgado al eliminar un demonio superpesado o jefe (ej. 10% = 100 puntos por baja).%>;
+			}
+			"latin_spanish" = {
+				num = 1;
+				item[0] = <%Porcentaje de la base de 1000 puntos otorgado al eliminar un demonio superpesado o jefe (ej. 10% = 100 puntos por baja).%>;
+			}
+		}
+	}
+}

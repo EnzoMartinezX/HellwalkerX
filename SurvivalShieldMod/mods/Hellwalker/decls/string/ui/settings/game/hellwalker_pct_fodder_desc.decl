@@ -1,0 +1,18 @@
+{
+	edit = {
+		localizations = {
+			"english" = {
+				num = 1;
+				item[0] = <%Percentage of the 100-point base granted when killing a fodder demon (e.g. 10% = 10 points per kill).%>;
+			}
+			"spanish" = {
+				num = 1;
+				item[0] = <%Porcentaje de la base de 100 puntos otorgado al eliminar un demonio menor (ej. 10% = 10 puntos por baja).%>;
+			}
+			"latin_spanish" = {
+				num = 1;
+				item[0] = <%Porcentaje de la base de 100 puntos otorgado al eliminar un demonio menor (ej. 10% = 10 puntos por baja).%>;
+			}
+		}
+	}
+}

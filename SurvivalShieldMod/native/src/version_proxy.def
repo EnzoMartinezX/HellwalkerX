@@ -1,0 +1,15 @@
+LIBRARY "version"
+; Every documented VERSION.DLL export. The game EXE, idTechLauncher.exe and the
+; streamline DLSS plugins resolve different subsets of these at load time; a
+; missing name aborts process startup with "entry point not found".
+EXPORTS
+    GetFileVersionInfoA=Proxy_GetFileVersionInfoA
+    GetFileVersionInfoExA=Proxy_GetFileVersionInfoExA
+    GetFileVersionInfoExW=Proxy_GetFileVersionInfoExW
+    GetFileVersionInfoW=Proxy_GetFileVersionInfoW
+    GetFileVersionInfoSizeA=Proxy_GetFileVersionInfoSizeA
+    GetFileVersionInfoSizeExA=Proxy_GetFileVersionInfoSizeExA
+    GetFileVersionInfoSizeExW=Proxy_GetFileVersionInfoSizeExW
+    GetFileVersionInfoSizeW=Proxy_GetFileVersionInfoSizeW
+    VerQueryValueA=Proxy_VerQueryValueA
+    VerQueryValueW=Proxy_VerQueryValueW

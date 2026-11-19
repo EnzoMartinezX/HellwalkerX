@@ -1,0 +1,18 @@
+{
+	edit = {
+		dataSet = "idUIDataSet_Settings_UI";
+		propertyName = "hudCurveModifier";
+		uiData = {
+			className = "idUIWidgetModel_Setting_Slider";
+			object = {
+				title = "ui/settings/game/hellwalker_powered_dash_damage_title";
+				description = "ui/settings/game/hellwalker_powered_dash_damage_desc";
+				minValue = 100;
+				maxValue = 5000;
+				precision = 50;
+				increment = 50;
+				displayPrecision = 0;
+			}
+		}
+	}
+}

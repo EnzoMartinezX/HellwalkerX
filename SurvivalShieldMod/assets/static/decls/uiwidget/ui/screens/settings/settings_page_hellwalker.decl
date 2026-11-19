@@ -1,0 +1,25 @@
+{
+	inherit = "ui/screens/settings/settings_page_template";
+	edit = {
+		attributes = {
+			object = {
+				settingsSections = {
+					num = 1;
+					item[0] = {
+						settingsList = {
+							num = 7;
+							item[0] = "game/hellwalker_enabled";
+							item[1] = "game/hellwalker_target_score";
+							item[2] = "game/hellwalker_score_pct_fodder";
+							item[3] = "game/hellwalker_score_pct_heavy";
+							item[4] = "game/hellwalker_score_pct_superheavy";
+							item[5] = "game/hellwalker_powered_dash_damage";
+							item[6] = "game/hellwalker_parry_points";
+						}
+						sectionName = "ui/settings/game/hellwalker_section";
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+	inherit = "base/screen";
+	edit = {
+		uiCanvas = "ui/shapes/menu_settings";
+		rootWidget = "ui/screens/mainmenu_hellwalker_mods/mainmenu_hellwalker_mods";
+	}
+}

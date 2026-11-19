@@ -1,0 +1,18 @@
+{
+	edit = {
+		localizations = {
+			"english" = {
+				num = 1;
+				item[0] = <%Percentage of the target score granted on each successful shield parry (0% to 50% in 10% steps; 0% disables).%>;
+			}
+			"spanish" = {
+				num = 1;
+				item[0] = <%Porcentaje de la carga objetivo otorgado por cada bloqueo exitoso con el escudo (0% a 50% en pasos de 10%; 0% deshabilita).%>;
+			}
+			"latin_spanish" = {
+				num = 1;
+				item[0] = <%Porcentaje de la carga objetivo otorgado por cada bloqueo exitoso con el escudo (0% a 50% en pasos de 10%; 0% deshabilita).%>;
+			}
+		}
+	}
+}

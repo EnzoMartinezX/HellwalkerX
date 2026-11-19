@@ -1,0 +1,18 @@
+{
+	edit = {
+		localizations = {
+			"english" = {
+				num = 1;
+				item[0] = <%Percentage of the 300-point base granted when killing a heavy demon (e.g. 10% = 30 points per kill).%>;
+			}
+			"spanish" = {
+				num = 1;
+				item[0] = <%Porcentaje de la base de 300 puntos otorgado al eliminar un demonio pesado (ej. 10% = 30 puntos por baja).%>;
+			}
+			"latin_spanish" = {
+				num = 1;
+				item[0] = <%Porcentaje de la base de 300 puntos otorgado al eliminar un demonio pesado (ej. 10% = 30 puntos por baja).%>;
+			}
+		}
+	}
+}

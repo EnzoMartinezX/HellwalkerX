@@ -1,0 +1,28 @@
+{
+	edit = {
+		dataSet = "idUIDataSet_Settings_Controls";
+		propertyName = "spearStabInputStyle";
+		uiData = {
+			className = "idUIWidgetModel_Setting_RadioButton";
+			object = {
+				title = "ui/settings/game/hellwalker_enabled_title";
+				description = "ui/settings/game/hellwalker_enabled_desc";
+				items = {
+					num = 2;
+					item[0] = {
+						name = {
+							format = "ui/settings/option_off";
+						}
+					}
+					item[1] = {
+						name = {
+							format = "ui/settings/option_on";
+						}
+						value = 1;
+					}
+				}
+				useBoolForSetting = true;
+			}
+		}
+	}
+}

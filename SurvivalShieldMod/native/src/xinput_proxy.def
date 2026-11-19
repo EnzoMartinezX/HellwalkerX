@@ -1,0 +1,20 @@
+LIBRARY "xinput1_4"
+; Mirrors the real System32 xinput1_4.dll export table (8 named entries and
+; NONAME ordinals 100..104, 108, 109) so every static or dynamic resolver in
+; the game process finds a valid entry point.
+EXPORTS
+    DllMain=Proxy_XInputDllMain @1
+    XInputGetState @2
+    XInputSetState @3
+    XInputGetCapabilities @4
+    XInputEnable @5
+    XInputGetBatteryInformation @7
+    XInputGetKeystroke @8
+    XInputGetAudioDeviceIds @10
+    XInputOrdinal100 @100 NONAME
+    XInputOrdinal101 @101 NONAME
+    XInputOrdinal102 @102 NONAME
+    XInputOrdinal103 @103 NONAME
+    XInputOrdinal104 @104 NONAME
+    XInputOrdinal108 @108 NONAME
+    XInputOrdinal109 @109 NONAME

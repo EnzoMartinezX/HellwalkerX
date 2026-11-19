@@ -1,0 +1,18 @@
+{
+	edit = {
+		localizations = {
+			"english" = {
+				num = 1;
+				item[0] = <%Parry charge (%)%>;
+			}
+			"spanish" = {
+				num = 1;
+				item[0] = <%Aporte por bloqueo (Parry)%>;
+			}
+			"latin_spanish" = {
+				num = 1;
+				item[0] = <%Aporte por bloqueo (Parry)%>;
+			}
+		}
+	}
+}

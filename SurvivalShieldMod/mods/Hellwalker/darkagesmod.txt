@@ -1,0 +1,9 @@
+modinfo = {
+    name = "Hellwalker"
+    game = "Doom The Dark Ages"
+    author = "HellwalkerX"
+    description = "Hellwalker combat system and integrated community mod library"
+    version = "1.0"
+    loadPriority = 1
+    requiredVersion = 1
+}

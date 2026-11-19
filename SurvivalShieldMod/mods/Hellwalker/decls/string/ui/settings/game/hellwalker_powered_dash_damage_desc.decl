@@ -1,0 +1,18 @@
+{
+	edit = {
+		localizations = {
+			"english" = {
+				num = 1;
+				item[0] = <%Impact power of a fully charged shield bash. Replaces vanilla bash impact scaled by demon category and applies burn damage over time if the target survives.%>;
+			}
+			"spanish" = {
+				num = 1;
+				item[0] = <%Potencia del impacto de la embestida cargada. Reemplaza el impacto base del escudo segun la categoria del demonio y aplica quemadura si sobrevive.%>;
+			}
+			"latin_spanish" = {
+				num = 1;
+				item[0] = <%Potencia del impacto de la embestida cargada. Reemplaza el impacto base del escudo segun la categoria del demonio y aplica quemadura si sobrevive.%>;
+			}
+		}
+	}
+}

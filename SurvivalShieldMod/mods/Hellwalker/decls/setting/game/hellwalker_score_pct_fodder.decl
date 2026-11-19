@@ -1,0 +1,19 @@
+{
+	edit = {
+		dataSet = "idUIDataSet_Settings_Controls";
+		propertyName = "aimingDeadzone";
+		uiData = {
+			className = "idUIWidgetModel_Setting_Slider";
+			object = {
+				title = "ui/settings/game/hellwalker_pct_fodder_title";
+				description = "ui/settings/game/hellwalker_pct_fodder_desc";
+				minValue = 0;
+				maxValue = 1;
+				precision = 0.05;
+				increment = 0.05;
+				displayFormat = "UI_NUMBER_FORMAT_PERCENT_ADJUSTED";
+				displayPrecision = 0;
+			}
+		}
+	}
+}

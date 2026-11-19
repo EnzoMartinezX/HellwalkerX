@@ -1,0 +1,9 @@
+modinfo = {
+    name = "SkipIntro"
+    game = "Doom The Dark Ages"
+    author = "HellwalkerX"
+    description = "Skips startup intro logo videos (Bethesda / id Software)"
+    version = "1.0"
+    loadPriority = 1
+    requiredVersion = 1
+}

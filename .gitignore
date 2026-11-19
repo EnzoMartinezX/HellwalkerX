@@ -1,0 +1,71 @@
+# CMake / MSVC build artifacts & release packages
+SurvivalShieldMod/native/build/
+build/
+release/
+*.zip
+.release-stage/
+*.obj
+*.tlog
+*.lastbuildstate
+*.idb
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.iobj
+*.ipdb
+
+# Compiled binaries & shortcuts (keep only the ready-to-run mod binaries in SurvivalShieldMod/bin/)
+*.exe
+*.dll
+!SurvivalShieldMod/bin/SurvivalShield.dll
+!SurvivalShieldMod/bin/SurvivalShieldLoader.exe
+*.lnk
+
+# Game archives, patched images & runtime caches (never commit copyrighted game files)
+*.resources
+*.u5.mod
+*.bak
+*.backup
+*.dmp
+*.md6anim
+*.bin
+packagemapspec.json
+u5_patch_manifest.json
+oo2core_9_win64.dll
+AtlanModLoader.exe
+AtlanPatcher.txt
+SurvivalShieldMod/exe-cache/
+SurvivalShieldMod/atlan-cache/
+SurvivalShieldMod/atlan-staging/
+SurvivalShieldMod/session-backup/
+SurvivalShieldMod/tools/
+exe-cache/
+atlan-cache/
+atlan-staging/
+session-backup/
+
+# Third-party / local test mods in mods/
+SurvivalShieldMod/mods/MoreGloryKill*/
+SurvivalShieldMod/mods/*.off/
+SurvivalShieldMod/mods/*.disabled/
+SurvivalShieldMod/mods/*.zip
+
+# Dynamic generated menu decls & runtime logs
+SurvivalShieldMod/mods/Hellwalker/decls/uiwidget/ui/screens/mainmenu_hellwalker_mods/mainmenu_hellwalker_mods.decl
+SurvivalShieldMod/mods/Hellwalker/decls/uiwidget/ui/screens/settings/settings_page_mods_library.decl
+SurvivalShieldMod/mods/Hellwalker/decls/setting/game/modslist_*.decl
+SurvivalShieldMod/mods/Hellwalker/decls/string/ui/settings/game/modslist_*.decl
+*.log
+modloader_log.txt
+packager_log.txt
+*.tmp
+
+# IDE / OS / Python cache
+__pycache__/
+*.pyc
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

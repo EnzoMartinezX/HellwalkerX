@@ -1,0 +1,18 @@
+{
+	edit = {
+		localizations = {
+			"english" = {
+				num = 1;
+				item[0] = <%Hellwalker configuration and installed mod manager.%>;
+			}
+			"spanish" = {
+				num = 1;
+				item[0] = <%Configuracion de Hellwalker y gestor de mods instalados.%>;
+			}
+			"latin_spanish" = {
+				num = 1;
+				item[0] = <%Configuracion de Hellwalker y gestor de mods instalados.%>;
+			}
+		}
+	}
+}

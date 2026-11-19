@@ -1,0 +1,18 @@
+{
+	edit = {
+		localizations = {
+			"english" = {
+				num = 1;
+				item[0] = <%Kill charge: Super-heavy demons%>;
+			}
+			"spanish" = {
+				num = 1;
+				item[0] = <%Aporte por baja: Demonios superpesados%>;
+			}
+			"latin_spanish" = {
+				num = 1;
+				item[0] = <%Aporte por baja: Demonios superpesados%>;
+			}
+		}
+	}
+}

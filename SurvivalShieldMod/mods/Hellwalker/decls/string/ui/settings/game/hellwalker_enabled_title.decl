@@ -1,0 +1,18 @@
+{
+	edit = {
+		localizations = {
+			"english" = {
+				num = 1;
+				item[0] = <%Hellwalker%>;
+			}
+			"spanish" = {
+				num = 1;
+				item[0] = <%Hellwalker%>;
+			}
+			"latin_spanish" = {
+				num = 1;
+				item[0] = <%Hellwalker%>;
+			}
+		}
+	}
+}

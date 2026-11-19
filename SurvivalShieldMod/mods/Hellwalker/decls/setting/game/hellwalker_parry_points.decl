@@ -1,0 +1,19 @@
+{
+	edit = {
+		dataSet = "idUIDataSet_Settings_Controls";
+		propertyName = "adaptiveTriggerVibration";
+		uiData = {
+			className = "idUIWidgetModel_Setting_Slider";
+			object = {
+				title = "ui/settings/game/hellwalker_parry_points_title";
+				description = "ui/settings/game/hellwalker_parry_points_desc";
+				minValue = 0;
+				maxValue = 0.5;
+				precision = 0.1;
+				increment = 0.1;
+				displayFormat = "UI_NUMBER_FORMAT_PERCENT_ADJUSTED";
+				displayPrecision = 0;
+			}
+		}
+	}
+}
